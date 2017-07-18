@@ -61,7 +61,7 @@ togglbutton.render('.BoardCard.BoardColumnCardsContainer-item:not(.toggl)', {obs
   var link,
     container = $('.BoardCardMetadata-left', elem),
     description = $('.BoardCard-name', elem).textContent,
-    project = $('#project_pane_header_name').textContent;
+    project = $('.DeprecatedNavigationLink.SidebarItemRow.is-selected').textContent;
 
   link = togglbutton.createTimerLink({
     className: 'asana-board',
